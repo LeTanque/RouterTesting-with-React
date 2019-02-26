@@ -13,11 +13,13 @@ class App extends Component {
           <div>
             <h2>Welcome to React Router Tutorial</h2>
             <nav className="">
-            <ul className="">
-              <li><Link to={'/'} className=""> Home </Link></li>
-              <li><Link to={'/contact'} className="">Contact</Link></li>
-              <li><Link to={'/about'} className="">About</Link></li>
-            </ul>
+              <ul className="">
+                <Link to={'/'} className="">Home</Link>
+                <br></br>
+                <Link to={'/contact'} className="">Contact</Link>
+                <br></br>
+                <Link to={'/about'} className="">About</Link>
+              </ul>
             </nav>
             <hr />
             <Switch>
